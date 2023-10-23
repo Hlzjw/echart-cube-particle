@@ -1,0 +1,26 @@
+{
+  "name": "echart-cube-particle",
+  "version": "1.0.0",
+  "description": "echarts添加粒子效果以及3d柱状图",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hlzjw/echart-cube-particle.git"
+  },
+  "keywords": [
+    "echarts-cube"
+  ],
+  "author": "heliang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hlzjw/echart-cube-particle/issues"
+  },
+  "homepage": "https://github.com/Hlzjw/echart-cube-particle#readme",
+  "dependencies": {
+    "echarts": "5.4.3",
+    "zrender": "^5.4.4"
+  }
+}
