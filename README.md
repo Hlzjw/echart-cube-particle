@@ -243,3 +243,7 @@ light的属性配置：
 | color    |   流光颜色 | #ffffff |
 | imgPath | 粒子图片路径 | /qipao.png |
 | animeType | 流光移动方向 | up |
+
+效果图：
+
+<img src="./assets/demo.png" alt="企业微信20231023-154802@2x" style="zoom:50%;" />
