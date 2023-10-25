@@ -643,8 +643,8 @@ function applyOptionStyleForRegion(viewBuildCtx, el, dataIndex, regionModel) {
             viewBuildCtx.extraSeries.map((item) => {
                 if (item.option.data && item.ecModel.getComponent('legend').isSelected(item.name)) {
                     item.option.data.some((d) => {
-                        if (d.name === name && d.itemStyle?.topAreaColor) {
-                            normalStyle.fill = d.itemStyle?.topAreaColor;
+                        if (d.name === name && d.itemStyle && d.itemStyle.topAreaColor) {
+                            normalStyle.fill = d.itemStyle.topAreaColor;
                             return true;
                         }
                     });

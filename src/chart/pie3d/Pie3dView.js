@@ -640,7 +640,7 @@ PiePiece.prototype._updateLabel = function (seriesModel, data, idx, themeHighCol
 		visualColor = visualColor.colorStops ? (visualColor.colorStops[0].color || '#000') : '#000'; // 如果是渐变色默认取第一个颜色做标签颜色
 	}
 	if (fontIsCustomize) {
-		labeColor = labelOption?.color ?? '#000'
+		labeColor = labelOption && labelOption.color !== undefined ? labelOption.color : '#000';
 	} else {
 		labeColor = visualColor
 	}

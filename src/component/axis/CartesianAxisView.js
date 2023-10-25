@@ -194,8 +194,7 @@ var CartesianAxisView =
         ) {
             var labelModel = axisModel.getModel("axisLabel");
             var emphasis = labelModel.getModel(["emphasis"]);
-            var dim = axisModel?.axis?.dim;
-
+            var dim = axisModel && axisModel.axis && axisModel.axis.dim;
             globalListener.register(
                 "axisHeight",
                 api,
