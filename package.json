@@ -20,7 +20,6 @@
   },
   "homepage": "https://github.com/Hlzjw/echart-cube-particle#readme",
   "dependencies": {
-    "@babel/plugin-proposal-optional-chaining": "^7.21.0",
     "echarts": "5.4.3",
     "zrender": "^5.4.4"
   }
