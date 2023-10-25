@@ -1,6 +1,6 @@
 {
   "name": "echart-cube-particle",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "echarts添加粒子效果以及3d柱状图",
   "main": "index.js",
   "scripts": {
